@@ -19,6 +19,7 @@ function ThemeSwicher() {
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
       whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
       transition={{ duration: 0.3 }}
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       className="flex items-center gap-3 border border-gray-400/50 dark:border-gray-50/20 px-5 py-2 rounded-md"
